@@ -1,0 +1,725 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(196, 244, 222, 0.95);
+
+}
+
+.header {
+    border-color: #84292B;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins";
+    align-items: center;
+    padding-bottom: 10px;
+    background-color: white;
+
+
+}
+
+nav {
+    background-color: white;
+}
+
+ul li {
+    background-color: white;
+    list-style: none;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-height: 150px;
+
+}
+
+.logo {
+    width: 200px;
+    max-height: 100px;
+}
+
+#logo li a {
+    background-color: white;
+
+}
+
+/* ---------------------------------- */
+.closeBtn,
+.menuBtn {
+    font-size: 28px;
+    margin: 0px 20px;
+    display: none;
+}
+
+/* --------------------------------------- */
+.nav {
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 10px;
+    background-color: white;
+
+}
+
+.nav li img {
+    width: 180px;
+    height: 150px;
+    margin-top: -20%;
+}
+
+#logo {
+    margin-left: -45%;
+    width: 100%;
+    column-gap: 45%;
+    background-color: white;
+
+}
+
+#logo button {
+    background-color: white;
+    color: #000;
+    width: 200px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 15px;
+    border-style: none;
+
+}
+
+#logo li p {
+    width: 350px;
+    color: #000;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: Italianno;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    background-color: white;
+    padding-top: 20px;
+}
+
+#menu {
+    margin-top: -5%;
+    width: 100%;
+    margin-left: -40%;
+    background-color: white;
+
+}
+
+#menu li a {
+    background-color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 30px;
+    color: #000;
+}
+
+
+.store {
+    background-color: white;
+    width: 75px;
+    height: 0px;
+    margin-left: -70%;
+    margin-top: 50px;
+
+}
+
+.store button {
+    border-style: none;
+}
+
+.store button i {
+    background-color: white;
+    font-size: 50px;
+
+}
+/* ------------------------------------------------------------------------------------ */
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.contain {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.first {
+    margin-top: 10%;
+    width: 100%;
+    height: 800px;
+}
+
+.side-navbar {
+
+    padding-left: 35px;
+}
+
+.btn {
+    padding-top: 20px;
+    margin-left: 100px;
+}
+
+
+
+.first button {
+    cursor: pointer;
+    width: 200px;
+    border-radius: 50px;
+    background: #223722;
+    color: white;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.first button:hover {
+    color: rgb(101, 20, 4);
+    background-color: #D9D9D9;
+}
+
+
+.side-image {
+    position: relative;
+    display: grid;
+    width: 90%;
+    height: auto;
+}
+
+.collect {
+    margin-top: -20%;
+    width: 90%;
+    height: auto;
+}
+
+.head0 {
+    margin-left: 20%;
+    width: 90%;
+    padding-bottom: 40px;
+}
+
+.head0 h2 {
+
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+.head1 {
+    width: 80%;
+}
+
+.head1 h1 {
+    font-size: 20px;
+    font-weight: 1000;
+
+}
+
+.head1 p {
+    font-family: Poppins;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 110%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+.second {
+    margin-top: 25%;
+    margin-left: 0%;
+    width: 90%;
+}
+
+.second .head2 {
+    padding-top: 10px;
+    width: 500px;
+}
+
+.second .head2 .price {
+    width: 200px;
+}
+
+.second .head2 .price h1 {
+    font-size: 22px;
+    font-weight: 900;
+    color: #223722;
+
+}
+
+.second .head2 .col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 500px;
+    gap: 0%;
+    margin-top: 20px;
+    margin-left: 0%;
+    padding-bottom: 20px;
+}
+
+.second .head2 .col h3 {
+    width: 250px;
+    color: #223722;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.second .head2 .col p {
+    padding-top: 10px;
+    width: 100px;
+    font-size: 18px;
+    font-weight: 100;
+    color: #223722;
+    margin-left: -100px;
+}
+
+.second .head2 .col p1 {
+    width: 100px;
+    font-size: 16px;
+    padding-top: 12px;
+    color: #223722;
+    margin-left: -120px;
+}
+
+.second .head3 {
+    width: 300px;
+}
+
+.second .head3 .price {
+    width: 200px;
+}
+
+.second .head3 .price p {
+    color: #223722;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.second .head3 .crystal {
+    margin-top: 0px;
+    width: 500px;
+    margin-left: 0%;
+    padding-bottom: 10px;
+}
+
+.second .head3 .crystal h1 {
+
+    color: #223722;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.quantity {
+    padding-top: 0px;
+    margin-left: 0%;
+    margin-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+.quantity label {
+
+    padding: 10px 40px;
+    letter-spacing: 2.5px;
+    border-radius: 10px;
+    color: white;
+    background: #223722;
+}
+
+.quantity select {
+    margin-left: -35px;
+    position: absolute;
+    border: none;
+    color: white;
+    font-size: 15px;
+    background: transparent;
+}
+
+.quantity option {
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: white;
+    background: #223722;
+}
+
+/* -------------------------------------------------------------- */
+.col2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 30px;
+    width: 90%;
+}
+
+
+.one button {
+    color: #223722;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.two button {
+    color: #223722;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: white;
+    cursor: pointer;
+}
+
+.one button p {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.one button p1 {
+    margin-left: -80px;
+    text-align: left;
+}
+
+.one button img {
+    position: absolute;
+    background: transparent;
+    margin-left: -12px;
+    width: 60px;
+    height: 22px;
+}
+
+.one button p4 {
+    color: #223722;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.one button p2 {
+    position: absolute;
+    padding-left: 40px;
+    margin-top: -10px;
+    font-weight: 600;
+
+}
+
+.one button p2:hover {
+    color: blue;
+    font-style: normal;
+}
+
+.two button i {
+    background-color: transparent;
+}
+
+.three button {
+    cursor: pointer;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(77, 237, 83, 0.50) 0%, rgba(77, 237, 83, 0.50) 100%), rgba(34, 55, 34, 0.40);
+    box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.col2 button {
+    width: 300px;
+    height: 40px;
+}
+
+.col2 button p,
+.col2 button p1,
+.col2 button p2 {
+    background-color: white;
+
+}
+/* ------------------------SBI LOGO------------------------------- */
+.right {
+    padding-right: 250px;
+    margin-left: -18%;
+}
+
+.side-image img {
+    width: 300px;
+    height: 300px;
+    margin-left: -60%;
+    padding-right: 40px;
+}
+
+.side-image img:hover {
+    cursor: pointer;
+    transform: scaleY(0.9);
+    transition-duration: 1s;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------- */
+
+.col3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0%;
+    width: 90%;
+
+}
+
+.head5 {
+    width: 500px;
+    padding-top: 50px;
+
+}
+
+
+.head5 input {
+    border-top: none;
+    padding-left: 10px;
+    border-top: none;
+
+}
+
+.head5 button {
+
+    width: 100px;
+    padding: 5px;
+    color: white;
+    background-color: #223722;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.head5 p1 {
+    padding-top: 20px;
+    padding-right: 0px;
+    color: rgb(235, 72, 72);
+    background: transparent;
+    line-height: 50px;
+}
+
+.head5 p2 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.head5 p2 i {
+    color: black;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+.head6 {
+    padding-top: 20px;
+    width: 90%;
+
+}
+
+.head6 .third {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+
+}
+
+.head6 .third .head1 h1 {
+    margin-left: 0px;
+    text-decoration-line: underline;
+    padding: 10px;
+}
+
+.head6 .head2 {
+    width: 100%;
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.head6 .third .head2 h1 {
+
+    color: #223722;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+#sale h2 {
+    font-size: 17px;
+    margin-left: -5px;
+    font-weight: 400;
+}
+
+#discount h2 {
+    font-size: 17px;
+    margin-left: 4px;
+    font-weight: 400;
+}
+#free h2 {
+    font-size: 17px;
+    margin-left: 33px;
+    font-weight: 400;
+}
+
+.head6 .head3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+}
+
+.head6 .third .head3 h1 {
+    font-weight: 600;
+    font-size: 17px;
+    padding-top: 5px;
+    width: 200px;
+}
+.head6 .third .head2 p {
+    font-size: 15px;
+    color: rgb(30, 238, 51);
+    font-weight: 500;
+}
+
+.head6 .btn1 {
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.head6 button {
+    cursor: pointer;
+    width: 200px;
+    border-radius: 50px;
+    background: #223722;
+    color: white;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.head6 button:hover {
+    color: rgb(101, 20, 4);
+    background-color: #D9D9D9;
+}
+/* ------------------------------------------------------------------------------------------- */
+.footer {
+    margin-top: 10%;
+    justify-content: center;
+    background-color: #DEDCDA;
+}
+
+.footer .col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10%;
+    background-color: #DEDCDA;
+}
+
+.footer .col .one {
+    width: 100%;
+    background-color: #DEDCDA;
+}
+
+.footer .col .two {
+    width: 50%;
+    margin-top: 5%;
+    background-color: #DEDCDA;
+    padding-bottom: 100px;
+}
+
+.footer .col .one img {
+    width: 342px;
+    height: 236px;
+    flex-shrink: 0;
+    padding-left: 70px;
+    padding-top: 50px;
+    background-color: #DEDCDA;
+
+}
+
+.footer .col .one .para p {
+    width: 863px;
+    height: 126px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Imprima;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 70px;
+    padding-top: 30px;
+    background-color: #DEDCDA;
+
+}
+
+.footer .col .two ul li {
+    list-style: none;
+    width: 258px;
+    height: 25px;
+    color: #000;
+    font-family: Imprima;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 30px;
+    padding-top: 35px;
+    background-color: #DEDCDA;
+    cursor: pointer;
+  
+}
+.footer .col .two ul a{
+    text-decoration: none;
+}  
+
+.footer .col .two ul li i {
+    padding-left: 40px;
+    background-color: #DEDCDA;
+
+}
+
+.footer .col .two .icon {
+    margin-left: -15%;
+    background-color: #DEDCDA;
+
+}
+
+.footer .col .two h1 {
+    background-color: #DEDCDA;
+    padding-bottom: 0px;
+
+}

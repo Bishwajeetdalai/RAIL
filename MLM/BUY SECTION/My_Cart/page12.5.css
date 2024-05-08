@@ -1,0 +1,588 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(196, 244, 222, 0.95);
+}
+.header {
+    border-color: #84292B;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins";
+    align-items: center;
+    padding-bottom: 10px;
+    background-color: white;
+
+
+}
+
+nav {
+    background-color: white;
+}
+
+ul li {
+    background-color: white;
+    list-style: none;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-height: 150px;
+
+}
+
+.logo {
+    width: 200px;
+    max-height: 100px;
+}
+
+#logo li a {
+    background-color: white;
+}
+
+/* ---------------------------------- */
+.closeBtn,
+.menuBtn {
+    font-size: 28px;
+    margin: 0px 20px;
+    display: none;
+}
+
+/* --------------------------------------- */
+.nav {
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 10px;
+    background-color: white;
+
+}
+
+.nav li img {
+    width: 180px;
+    height: 150px;
+    margin-top: -20%;
+}
+
+#logo {
+    margin-left: -45%;
+    width: 100%;
+    column-gap: 45%;
+    background-color: white;
+
+}
+
+#logo button {
+    background-color: white;
+    color: #000;
+    width: 200px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 0px;
+    border-style: none;
+
+}
+
+#logo li p {
+    width: 350px;
+    color: #000;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: Italianno;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    background-color: white;
+    padding-top: 20px;
+}
+
+#menu {
+    margin-top: -5%;
+    width: 100%;
+    margin-left: -40%;
+    background-color: white;
+
+}
+
+#menu li a {
+    background-color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 30px;
+    color: #000;
+}
+
+
+.store {
+    background-color: white;
+    width: 75px;
+    height: 0px;
+    margin-left: -70%;
+    margin-top: 50px;
+
+}
+
+.store button {
+    border-style: none;
+}
+
+.store button i {
+    background-color: white;
+    font-size: 50px;
+
+}
+/* ----------------------------------------------------------------------------------------------------------- */
+.container {
+    width: 100%;
+    height: auto;
+    /* background-color: #FED7BA; */
+}
+
+.head1 h1 {
+    padding: 10px;
+    padding-left: 20px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    height: 100px;
+  
+}
+.head1 a{
+    text-decoration: none;
+}
+
+.first {
+    display: flex;
+    background: #A2BBA2;
+}
+
+.content {
+    background: #A2BBA2;
+    width: 100%;
+    height: 200px;
+
+}
+
+.content h1 {
+    padding-top: 30px;
+    padding-left: 20px;
+    background: #A2BBA2;
+    color: #000;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content h2 {
+    padding-top: 30px;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 20px;
+    background: #A2BBA2;
+}
+
+.btn {
+    margin-top: 30px;
+    margin-left: 80%;
+    justify-content: center;
+    position: absolute;
+    cursor: pointer;
+    width: 209px;
+    height: 85px;
+    background: transparent;
+
+}
+
+button {
+    border-radius: 15px;
+    width: 209px;
+    height: 85px;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: rgba(34, 55, 34, 0.72);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(208, 202, 12);
+
+}
+
+.toggle-btn {
+    padding: 10px;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.second .first1 h1 {
+    padding-top: 30px;
+    padding-left: 50px;
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.second .head1 h1 {
+    color: #223722;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.second .first1 p {
+    padding-top: 10px;
+    padding-left: 50px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.second .head2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    margin-left: 0%;
+    gap: -10%;
+}
+
+.second .head2 .first2 h1 {
+    width: 200px;
+    font-size: 28px;
+    padding-top: 5px;
+    color: rgb(153, 50, 50);
+}
+
+.second .first2 p {
+    font-size: 20px;
+    margin-left: 0%;
+}
+
+strike {
+    color: rgb(96, 45, 45);
+    font-size: 20px;
+    margin-left: 0%;
+}
+
+.head3 {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 0%;
+}
+
+.head3 .rate {
+
+    margin-left: 12%;
+}
+
+.head3 .rate button {
+    width: 100px;
+    height: 50px;
+    background: #223722;
+    border-radius: 40px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.head3 .rate button i {
+    background: transparent;
+}
+
+.head3 .first1 {
+    margin-top: 10px;
+    margin-left: -40%;
+
+}
+
+.head3 .first1 h2 {
+    color: #4D4D4D;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.head4 {
+    padding: 40px;
+    width: 350px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 0%;
+}
+.head4 i{
+    background: transparent;
+}
+.but1 {
+    cursor: pointer;
+    width: 100px;
+
+}
+
+.but2 {
+    cursor: pointer;
+    width: 150px;
+
+}
+
+.but3 {
+    cursor: pointer;
+    width: 150px;
+   
+}
+
+button1 {
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    padding: 10px 10px;
+
+}
+
+button1:hover {
+    color: black;
+    background-color: white;
+}
+
+button2 {
+    border-radius: 10px;
+    color: black;
+    background-color: yellow;
+    padding: 10px 10px;
+
+}
+
+button2:hover {
+    color: black;
+    background-color: white;
+}
+
+button3 {
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    padding: 10px 10px;
+}
+
+button3:hover {
+    color: black;
+    background-color: white;
+}
+
+.second {
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 70%;
+    background-color: rgb(129, 158, 152);
+}
+
+image1 {
+    width: 500px;
+    height: auto;
+}
+
+.image1 img {
+    width: 450px;
+    height: 450px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.quantity {
+    
+    padding: 10px 150px;
+
+}
+.quantity label{
+    
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: white;
+    background: #223722;
+}
+.quantity  select{
+    margin-left: 5px;
+    position: absolute;
+    border: none;
+    color: white;
+    font-size: 15px;
+    background: transparent;
+}
+.quantity option{
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: white;
+    background: #223722;
+}
+/* -------------------------------------------------------------------------- */
+
+.third {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(129, 158, 152);
+}
+.third .head1 {
+    font-size: 30px;
+    font-weight: 1000;
+    padding-left: 100px;
+}
+
+.third .head11 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.third .head11 h1 {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.third .head11 p {
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    color: #223722;
+}
+.head12 {
+    box-sizing: border-box;
+    border-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.third .head12 {
+    padding-left: 100px;
+    box-sizing: border-box;
+    border-top: 2px solid black;
+    border-bottom: 1px solid grey;
+
+}
+
+.third .head12 h1 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+.footer {
+    margin-top: 5%;
+    justify-content: center;
+    background-color: #DEDCDA;
+}
+
+.footer .col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10%;
+    background-color: #DEDCDA;
+}
+
+.footer .col .one {
+    width: 100%;
+    background-color: #DEDCDA;
+}
+
+.footer .col .two {
+    width: 50%;
+    margin-top: 5%;
+    background-color: #DEDCDA;
+    padding-bottom: 100px;
+}
+
+.footer .col .one img {
+    width: 342px;
+    height: 236px;
+    flex-shrink: 0;
+    padding-left: 70px;
+    padding-top: 50px;
+    background-color: #DEDCDA;
+
+}
+
+.footer .col .one .para p {
+    width: 863px;
+    height: 126px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Imprima;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 70px;
+    padding-top: 30px;
+    background-color: #DEDCDA;
+
+}
+
+.footer .col .two ul li {
+    list-style: none;
+    width: 258px;
+    height: 25px;
+    color: #000;
+    font-family: Imprima;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 30px;
+    padding-top: 35px;
+    background-color: #DEDCDA;
+    cursor: pointer;
+  
+}
+.footer .col .two ul a{
+    text-decoration: none;
+}  
+
+.footer .col .two ul li i {
+    padding-left: 40px;
+    background-color: #DEDCDA;
+
+}
+
+.footer .col .two .icon {
+    margin-left: -15%;
+    background-color: #DEDCDA;
+
+}
+
+.footer .col .two h1 {
+    background-color: #DEDCDA;
+    padding-bottom: 0px;
+
+}

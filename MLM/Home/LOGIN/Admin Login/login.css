@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0%;
+
+}
+
+.form-box {
+    width: 72%;
+    height: 600px;
+    margin: 6% auto;
+    background: rgba(153, 191, 252, 0.49);
+    padding: 10px;
+
+}
+
+.second {
+    width: 550px;
+    height: 600px;
+    background: rgba(153, 191, 252, 0.49);
+
+}
+
+
+.second .image {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second .image img {
+    /* position: absolute; */
+    width: 550px;
+    height: 600px;
+
+}
+
+
+
+/* ----------------------------------------------------------------------------- */
+.first {
+    width: 550px;
+    height: 600px;
+    background: white;
+
+}
+.first .head1{
+    padding-bottom: 20px;
+}
+
+.box {
+    padding-left: 10px;
+    padding: 10px;
+}
+
+.box i {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -40px;
+    cursor: pointer;
+}
+
+.input-field {
+
+    width: 500px;
+    height: 20px;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: none;
+    background: rgba(153, 191, 252, 0.49);
+    border: 1px solid;
+    border-radius: 20px;
+    padding-left: 20px;
+
+}
+
+.first label {
+    padding-left: 20px;
+}
+
+.first .forgot {
+    text-align: end;
+    width: 250px;
+    margin-left: 50%;
+    padding: 10px;
+    font-size: 20px;
+}
+.first .forgot a{
+    
+    cursor: pointer;
+    color: black;
+}
+.radio {
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0%;
+    color: rgba(109, 151, 219, 0.95);
+    font-family: Jomolhari;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 20px;
+}
+
+.first .btn {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin-left: 0%;
+}
+
+.first .submit-btn {
+    width: 400px;
+    height: 50px;
+    color: #000;
+    text-align: center;
+    font-family: "Istok Web";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 30px;
+    background: rgba(153, 191, 252, 0.49);
+    cursor: pointer;
+}
+

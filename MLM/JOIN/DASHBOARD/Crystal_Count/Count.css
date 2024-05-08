@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(235, 235, 249);
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins";
+    align-items: center;
+    padding-bottom: 10px;
+    background-color: white;
+    border-bottom: 3px solid rgb(132, 127, 127);
+
+}
+
+nav {
+    background-color: white;
+}
+
+nav ul li {
+    background-color: white;
+    list-style: none;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-height: 150px;
+
+}
+
+.logo {
+    width: 200px;
+    max-height: 100px;
+}
+
+#logo li a {
+    background-color: white;
+
+}
+
+/* ---------------------------------- */
+.closeBtn,
+.menuBtn {
+    font-size: 28px;
+    margin: 0px 20px;
+    display: none;
+}
+
+/* --------------------------------------- */
+.nav {
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 0px;
+    background-color: white;
+
+
+}
+
+.nav li img {
+    width: 180px;
+    height: 150px;
+    margin-top: -10%;
+}
+
+#logo {
+    margin-left: -53%;
+    width: 100%;
+    column-gap: 50%;
+    background-color: white;
+
+}
+
+#logo button {
+    background-color: white;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    width: 200px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 50px;
+    border-style: none;
+
+}
+
+#logo li p {
+    width: 350px;
+    color: #000;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: Italianno;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    background-color: white;
+    padding-top: 20px;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------- */
+.secondary-section {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.first {
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.square1 {
+    width: 40%;
+}
+
+.side-navbar {
+    width: 250px;
+    height: 600px;
+    padding: 10px 20px;
+    background: rgba(195, 195, 255, 0.60);
+}
+
+.side-navbar ul {
+    padding-top: 40px;
+    background-color: transparent;
+
+}
+
+.side-navbar ul li {
+    background-color: transparent;
+    list-style: none;
+    line-height: 70px;
+}
+
+.side-navbar li a {
+    color: #6D6D6D;
+    font-family: Inder;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    padding-left: 10px;
+    background-color: transparent;
+
+}
+
+.side-navbar a:hover,
+.side-navbar .btn button:hover {
+    color: black;
+    transform: scaleX(1.1);
+    font-weight: 600;
+}
+
+.side-navbar .btn {
+    margin-top: 50%;
+    display: flex;
+    width: 200px;
+    height: 54px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    margin-left: -3%;
+    background-color: rgb(191, 181, 205);
+    overflow: hidden;
+
+}
+
+.side-navbar .btn button {
+    width: 200px;
+    border-color: transparent;
+    color: #FFFEFE;
+    background-color: rgb(191, 181, 205);
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    font-family: "Inria Serif";
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+.section1 {
+    display: flex;
+    gap: 40%;
+    margin-left: 0%;
+    width: 1267px;
+    height: 57px;
+    background: rgba(125, 120, 211, 0.60);
+}
+
+.section1 h1 {
+    padding-top: 5px;
+    padding-left: 10px;
+    color: #6D6D6D;
+    font-family: "Inknut Antiqua";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent;
+}
+
+.section1 p {
+    margin-top: 2%;
+    margin-left: 13%;
+    width: 193px;
+    height: 54px;
+    color: #35008B;
+    font-family: "Inknut Antiqua";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: transparent;
+}
+
+.section1 i {
+    background-color: transparent;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+.table-box {
+    margin: 50px auto;
+    border: 1px solid black;
+    display: flex;
+    width: 950px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#table-head {
+    margin-top: -2px;
+}
+
+.table-row {
+
+    display: table;
+    width: 100%;
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.table-cell {
+    display: flex;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+#serial {
+    width: 500px;
+}
+
+#serial p {
+    font-size: 40px;
+    width: 400px;
+    height: 50px;
+    color: #6D6D6D;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.para {
+    padding-top: 20px;
+    padding-left: 50px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.para li {
+    padding-top: 30px;
+    list-style: none;
+}

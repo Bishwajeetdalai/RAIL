@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0%;
+
+}
+
+.form-box {
+    width: 72%;
+    height: 600px;
+    margin: 6% auto;
+    background: rgba(153, 191, 252, 0.49);
+    padding: 10px;
+
+}
+
+.first {
+    width: 550px;
+    height: 600px;
+    background: rgba(153, 191, 252, 0.49);
+
+}
+
+
+.first .image {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first .image img {
+    /* position: absolute; */
+    width: 550px;
+    height: 600px;
+
+}
+
+
+
+/* ----------------------------------------------------------------------------- */
+.second {
+    width: 550px;
+    height: 600px;
+    background: white;
+
+}
+
+
+.head1 {
+    margin-left: 20px;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40%;
+
+}
+
+.head1 h1 {
+    width: 161px;
+    height: 50px;
+    color: #000;
+    font-family: Italiana;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+    letter-spacing: 1.6px;
+}
+
+.box {
+    padding-left: 10px;
+
+}
+.box a{
+    width: 100px;
+    position: absolute;
+    font-size: 18px;
+    margin-top: 17px;
+    margin-left: -5%;
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.input-field {
+
+    width: 500px;
+    height: 20px;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: none;
+    background: rgba(153, 191, 252, 0.49);
+    border: 1px solid;
+    border-radius: 20px;
+    padding-left: 20px;
+
+}
+.second .btn {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-left: 0%;
+}
+
+.second .submit-btn {
+    width: 400px;
+    height: 50px;
+    color: #000;
+    font-family: "Inria Serif";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: rgba(153, 191, 252, 0.49);
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.second .or p {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.second .login {
+    padding: 5px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 0%;
+    color: rgba(109, 109, 109, 0.60);
+    font-family: "Inria Serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.second .login a {
+    cursor: pointer;
+    color: rgba(109, 151, 219, 0.95);
+}

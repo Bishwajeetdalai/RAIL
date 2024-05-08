@@ -1,0 +1,728 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(196, 244, 222, 0.95);
+}
+
+.header {
+    border-color: #84292B;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins";
+    align-items: center;
+    padding-bottom: 10px;
+    background-color: white;
+
+
+}
+
+nav {
+    background-color: white;
+}
+
+ul li {
+    background-color: white;
+    list-style: none;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-height: 150px;
+
+}
+
+.logo {
+    width: 200px;
+    max-height: 100px;
+}
+
+#logo li a {
+    background-color: white;
+
+}
+
+/* ---------------------------------- */
+.closeBtn,
+.menuBtn {
+    font-size: 28px;
+    margin: 0px 20px;
+    display: none;
+}
+
+/* --------------------------------------- */
+.nav {
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 10px;
+    background-color: white;
+
+}
+
+.nav li img {
+    width: 180px;
+    height: 150px;
+    margin-top: -20%;
+}
+
+#logo {
+    margin-left: -40%;
+    width: 100%;
+    column-gap: 45%;
+    background-color: white;
+
+}
+
+#logo button {
+    background-color: white;
+    color: #000;
+    width: 200px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 15px;
+    border-style: none;
+
+}
+
+#logo li p {
+    width: 350px;
+    color: #000;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: Italianno;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    background-color: white;
+    padding-top: 20px;
+}
+
+#menu {
+    margin-top: -5%;
+    width: 100%;
+    margin-left: -40%;
+    background-color: white;
+
+}
+
+#menu li a {
+    background-color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+
+.store {
+    background-color: white;
+    width: 75px;
+    height: 0px;
+    margin-left: -70%;
+    margin-top: 50px;
+
+}
+
+.store button {
+    border-style: none;
+}
+
+.store button i {
+    background-color: white;
+    font-size: 50px;
+
+}
+
+/* -----------------------------------------top section-------------------------------------------------- */
+.section {
+
+    background-color: #55A26F;
+
+}
+
+.section .container {
+    background-color: #55A26F;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0%;
+}
+
+.zero {
+    background-color: #55A26F;
+    justify-content: center;
+
+
+}
+
+.zero img {
+    background-color: #55A26F;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.zero p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Josefin Slab";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    background-color: #55A26F;
+    margin-left: -20%;
+
+}
+
+.zero .star {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin-left: 170px;
+
+}
+
+.zero .star .btn {
+    width: 130px;
+    padding: 10px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.zero .star .line {
+    background-color: transparent;
+}
+
+.zero .star .diamond img {
+    height: 40px;
+    margin-left: -20px;
+}
+
+.zero .star .rs p {
+    color: black;
+}
+
+.zero .star .rs,
+.zero .star .diamond {
+    background-color: transparent;
+}
+
+.zero .desc p {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+
+}
+.zero button{
+    padding: 10px;
+    margin-top: 10px;
+    color: red;
+    border-radius: 15px;
+    margin-left: 270px;
+    justify-content: center;
+    background-color: white;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+.second1 {
+
+    background-color: #55A26F;
+    margin-left: 0%;
+
+}
+
+.second1 .content1 {
+    background-color: #55A26F;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 30px;
+    margin-left: -20%;
+}
+
+.second1 .head1 {
+    background-color: #55A26F;
+
+}
+
+.second1 .head1 p {
+    width: 536px;
+    height: 29px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Josefin Slab";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #55A26F;
+
+}
+
+.second1 .content1 .col {
+    padding: 20px;
+    background-color: #55A26F;
+    border: 1px solid rgb(85, 84, 84);
+    margin-left: 0%;
+}
+
+.second1 .content1 .col img {
+    background-color: #55A26F;
+    margin-left: 70px;
+
+}
+
+.second1 .content1 .col p {
+    background-color: #55A26F;
+    color: #FFF;
+    text-align: center;
+    font-family: "Istok Web";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+}
+
+#one {
+    border-left: none;
+    border-top: none;
+}
+
+#two {
+
+    border-top: none;
+}
+
+#three {
+
+    border-top: none;
+    border-right: none;
+}
+
+#four {
+
+    border-left: none;
+    border-bottom: none;
+}
+
+#five {
+    border-bottom: none;
+}
+
+#six {
+    border-bottom: none;
+    border-right: none;
+}
+
+.second1 .btn {
+    padding: 10px;
+    background-color: #55A26F;
+    justify-content: center;
+    margin-left: 140%;
+
+}
+
+.second1 button {
+    color: #F46D6D;
+    text-align: center;
+    font-family: "Istok Web";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0px;
+}
+/* ------------------------------------------first------------------------------------------ */
+.container {
+    width: 100%;
+    height: 550px;
+}
+
+.contain {
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.first {
+    margin-top: 5%;
+    width: 100%;
+    height: 800px;
+}
+
+.side-navbar {
+
+    padding-left: 35px;
+}
+
+
+.side-navbar .btn button {
+    cursor: pointer;
+    width: 200px;
+    background-color: #223722;
+    ;
+    color: white;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.side-navbar .btn button:hover {
+    color: rgb(101, 20, 4);
+    background-color: #D9D9D9;
+}
+
+.link {
+    padding-top: 50px;
+}
+
+.link a {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #8B0000;
+}
+
+.link1 {
+    padding-top: 20px;
+}
+
+.link1 a {
+
+    text-align: center;
+    color: #8B0000;
+    padding-left: 180px;
+}
+
+.link i,
+.link1 i {
+    color: black;
+}
+
+/* ---------------------------------------second-------------------------------------------- */
+.second {
+    width: 100%;
+    height: 550px;
+    margin-left: -15%;
+    margin-top: 25%;
+}
+
+.second .side-image {
+    position: relative;
+    display: grid;
+    width: 100%;
+    height: 800px;
+
+}
+
+.second .collect {
+    margin-top: -20%;
+    width: 100%;
+    height: 600px;
+}
+
+
+.second .head1 {
+    width: 100%;
+}
+
+.second .head1 h1 {
+
+    color: #000;
+    font-family: "Inria Serif";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.second .head1 p {
+    color: #000;
+    font-family: "Inria Serif";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+/* ------------------------------------------------------------------------------------- */
+.second .head2 {
+    padding-top: 10px;
+    width: 100%;
+}
+
+.second .head2 h1 {
+    font-size: 20px;
+    font-weight: 200;
+    color: #8B0000;
+    padding-bottom: 10px;
+}
+
+.second .head2 .col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 3%;
+}
+
+.second .head2 .col p {
+    padding-top: 8px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 100;
+    color: #8B0000;
+}
+
+.second .head2 .col p1 {
+    width: 100px;
+    padding-top: 5px;
+    color: #8B0000;
+    margin-left: -70%;
+}
+
+
+.second .head2 .col h3 {
+    width: 250px;
+    color: #223722;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+/* ------------------------------------------------------------------------------- */
+.head3 {
+    width: 100%;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.head3 .btn button {
+    background-color: #223722;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.head3 i,
+button {
+    background-color: transparent;
+    color: white;
+}
+
+.head3 .btn p {
+    width: 100%;
+    padding-top: 15px;
+    font-weight: 100;
+    color: rgb(128, 128, 229);
+    margin-left: -70%;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+.head4 {
+    width: 100%;
+    padding: 10px;
+}
+
+.head4 h1 {
+    padding-top: 10px;
+    font-size: 23px;
+    width: 100%;
+    color: #8B0000;
+}
+
+.head4 p {
+    font-family: Poppins;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 10px;
+    width: 100%;
+    color: black;
+    font-size: 18px;
+}
+
+.head4 p1 {
+    color: rgb(235, 72, 72);
+}
+
+/* -------------------------------------------------------------- */
+.head5 {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.head5 p .input {
+    border-top: none;
+    padding-left: 10px;
+}
+
+.head5 button {
+    width: 100px;
+    padding: 5px;
+    color: white;
+    background-color: #223722;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.head5 p1 {
+    padding-left: 70px;
+    padding-right: 20px;
+    color: rgb(235, 72, 72);
+
+}
+
+.head5 p2 {
+
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.head5 p3 {
+    padding-left: 30px;
+}
+
+.head5 p2 i {
+    color: black;
+}
+
+p4 {
+    color: rgb(235, 72, 72);
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+.head6 {
+    padding-top: 20px;
+    width: 100%;
+
+}
+
+.head6 label {
+    * padding-right: 10px;
+    padding-bottom: 10px;
+    font-weight: 550;
+}
+
+.head6 select {
+    border: none;
+    color: #434141;
+}
+
+/* ---------------------------------footer----------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+.footer {
+    margin-top: 30%;
+    justify-content: center;
+    background-color: #DEDCDA;
+}
+
+.footer .col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10%;
+    background-color: #DEDCDA;
+}
+
+.footer .col .one {
+    width: 100%;
+    background-color: #DEDCDA;
+}
+
+.footer .col .two {
+    width: 50%;
+    margin-top: 5%;
+    background-color: #DEDCDA;
+    padding-bottom: 100px;
+}
+
+.footer .col .one img {
+    width: 342px;
+    height: 236px;
+    flex-shrink: 0;
+    padding-left: 70px;
+    padding-top: 50px;
+    background-color: #DEDCDA;
+
+}
+
+.footer .col .one .para p {
+    width: 863px;
+    height: 126px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Imprima;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 70px;
+    padding-top: 30px;
+    background-color: #DEDCDA;
+
+}
+
+.footer .col .two ul li {
+    list-style: none;
+    width: 258px;
+    height: 25px;
+    color: #000;
+    font-family: Imprima;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 30px;
+    padding-top: 35px;
+    background-color: #DEDCDA;
+    cursor: pointer;
+  
+}
+.footer .col .two ul a{
+    text-decoration: none;
+}  
+
+.footer .col .two ul li i {
+    padding-left: 40px;
+    background-color: #DEDCDA;
+
+}
+
+.footer .col .two .icon {
+    margin-left: -15%;
+    background-color: #DEDCDA;
+
+}
+
+.footer .col .two h1 {
+    background-color: #DEDCDA;
+    padding-bottom: 0px;
+
+}
