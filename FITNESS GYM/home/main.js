@@ -7,6 +7,18 @@ function showLoginForm() {
 function closeLoginForm() {
   document.getElementById('loginForm').style.display = 'none';
 }
+
+// -----FORM BUTTON-----
+let closeBtn = document.querySelector('.closeBtn')
+
+function openform() {
+  document.getElementById('form1').style.display = 'block';
+}
+function closeform() {
+  document.getElementById('form1').style.display = 'none';
+}
+document.getElementById('openformBtn').addEventListener('click', openform);
+
 // ------------------------------------------------------------------------
 
 
@@ -19,3 +31,4 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+

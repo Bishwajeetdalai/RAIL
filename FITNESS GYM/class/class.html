@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="class.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"> <img src="./figimg/Rectangle 1.png" alt="logo"></a>
+        </div>
+        <nav>
+
+            <span class="menuBtn" onclick="openMenu()">&#9776</span>
+            <span class="closeBtn" onclick="closeMenu()">&#9746</span>
+
+            <ul id="menu">
+                <li class="link"><a href="../home/hom.html">Home</a></li>
+                <li class="link"><a href="class.html">Classes</a></li>
+                <li class="link"><a href="../product/products.html">Products</a></li>
+                <li class="link"><a href="../blogs/blog.html">Blogs</a></li>
+            </ul>
+        </nav>
+        <button id="openformBtn" onclick="openform()">Join Us</button>
+    </header>
+
+    <!-- REGISTRATION FORM -->
+    <div class="registration_form" id="form1">
+        <form>
+            <h2>Membership Registration</h2>
+
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="membership">Membership Type:</label>
+            <select id="membership" name="membership" required>
+                <option value="basic">Basic</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+
+            <button type="submit">Register</button>
+            <button class="closeformBtn" onclick="closeform()" type="button">Close</button>
+        </form>
+    </div>
+<!-- -------------------------------------------------------------------------- -->
+<div class="zero3-container">
+    <div class="fist3-image">
+        <img src="./figimg/gym 1.png">
+        <div class="fist3-container">
+            <h1>OUR CLASSES</h1>
+
+            <div class="price__grid3">
+                <div class="price__card3">
+                    <div class="price_card_content3">
+                        <img src="./figimg/gym3 2.png">
+                        <p>6:30 -7:30 AM</p>
+                    </div>
+                    <div class="button">
+                        <a class="bt">Power Excello</a>
+                    </div>
+                </div>
+                <div class="price__card3">
+                    <div class="price_card_content3">
+                        <img src="./figimg/gym2 1.png">
+                        <p>6:30 -7:30 AM</p>
+                    </div>
+                    <div class="button">
+                        <a class="bt">Mixed-Level</a>
+                    </div>
+
+                </div>
+                <div class="price__card3">
+                    <div class="price_card_content3">
+                        <img src="./figimg/gym4 1.png">
+                        <p>6:30 -7:30 AM</p>
+                    </div>
+                    <div class="button">
+                        <a class="bt">Beginner Level</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------------------Training Partners------------------------------------ -->
+<div class="zero4-container">
+    <div class="fist4-image">
+        <img src="./figimg/Rectangle 30.png">
+        <div class="fist4-container">
+            <h1>OUR TRAINING PARTNERS</h1>
+            <div class="price__grid4">
+                <div class="price__card4">
+                    <div class="price_card_content4">
+                        <img src="./figimg/Rectangle 25.png">
+                        <a href="#">John_Smith</a>
+                    </div>
+                </div>
+
+                <div class="price__card4">
+                    <div class="price_card_content4">
+                        <img src="./figimg/Rectangle 26.png">
+                        <a href="#">Anais_Louis</a>
+                    </div>
+                </div>
+
+                <div class="price__card4">
+                    <div class="price_card_content4">
+                        <img src="./figimg/Rectangle 27.png">
+                        <a href="#">Phil_Heath</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------------------scroll Images------------------------------------- -->
+ 
+ <main>
+    <div class="zero5-container">
+        <div class="fist5-image">
+            <img src="./figimg/Rectangle 53.png">
+        </div>
+        
+    </div>
+</main>
+<!-- ------------------------------footer----------------------------------- -->
+<!-- FOOTER -->
+<footer class="section__container footer__container">
+    <div class="address">
+    <h3>Locations</h3>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d476002.68271770055!2d81.10737327343749!3d21.240929200000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28dd36c9094f8d%3A0x9b52fe998fc169b4!2sMagneto%20The%20Mall!5e0!3m2!1sen!2sin!4v1701877336375!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="footer__col">
+        <h4>Company</h4>
+        <a href="#">Business</a>
+        <a href="#">Franchise</a>
+        <a href="#">Partnership</a>
+        <a href="#">Network</a>
+    </div>
+    <div class="footer__col">
+        <h4>More</h4>
+        <a href="#">Blogs</a>
+        <a href="#">Security</a>
+        <a href="#">Careers</a>
+    </div>
+    <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">BMI Calculator</a>
+    </div>
+    <div class="footer__col">
+        <h4>Popular Tags</h4>
+        <button><a href="#">Workout</a></button>
+        <button><a href="#">Nutrition</a></button>
+        <button><a href="#">Trainers</a></button>
+        <button><a href="#">Facilities</a></button>
+        <button><a href="#">Running</a></button>
+        <button><a href="#">Strength</a></button>
+    </div>
+</footer>
+<div class="footer__bar">
+    Copyright © 2023 Fitness Star Gym. All rights reserved.
+</div>
+
+
+
+
+     <!-- ------------------------------------------------------------------------------------------------------------------------------------ -->
+     <script>
+        // -----NAV MENU-----
+        let x = document.getElementById('menu')
+        let menuBtn = document.querySelector('.menuBtn')
+        let closeBtn = document.querySelector('.closeBtn')
+
+        function openMenu() {
+            x.style.display = 'block';
+            menuBtn.style.display = 'none';
+            closeBtn.style.display = 'block';
+
+        }
+        function closeMenu() {
+            x.style.display = 'none';
+            menuBtn.style.display = 'block';
+            closeBtn.style.display = 'none';
+        }
+
+
+        // -----FORM BUTTON-----
+        function openform() {
+            document.getElementById('form1').style.display = 'block';
+        }
+        function closeform() {
+            document.getElementById('form1').style.display = 'none';
+        }
+        document.getElementById('openformBtn').addEventListener('click', openform);
+    </script>
+
+
+</body>
+
+</html>

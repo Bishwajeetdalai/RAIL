@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"> <img src="./figimg/Rectangle 1.png" alt="logo"></a>
+        </div>
+        <nav>
+
+            <span class="menuBtn" onclick="openMenu()">&#9776</span>
+            <span class="closeBtn" onclick="closeMenu()">&#9746</span>
+
+            <ul id="menu">
+                <li class="link"><a href="hom.html">Home</a></li>
+                <li class="link"><a href="../class/class.html">Classes</a></li>
+                <li class="link"><a href="../product/products.html">Products</a></li>
+                <li class="link"><a href="../blogs/blog.html">Blogs</a></li>
+            </ul>
+        </nav>
+        <button id="openformBtn" onclick="openform()">Join Us</button>
+    </header>
+
+    <!-- REGISTRATION FORM -->
+    <div class="registration_form" id="form1">
+        <form>
+            <h2>Membership Registration</h2>
+
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="membership">Membership Type:</label>
+            <select id="membership" name="membership" required>
+                <option value="basic">Basic</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+
+            <button type="submit">Register</button>
+            <button class="closeformBtn" onclick="closeform()" type="button">Close</button>
+        </form>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="home1">
+        <div class="first-image">
+            <img src="./figimg/training-828726_1280 1.png">
+            <div class="first-container">
+                <h1>Revitalize<br> your body</h1>
+                <p class="subtitle">
+                    Fall in love with taking care of yourself:<br> mind, body, and spirit.
+                </p>
+                <div class="second">
+                    <a class="btn">Get Started</a>
+                    <a class="btn">Free Trial</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------ -->
+
+    <div class="plan">
+        <div class="plan-name">
+            <h4>Fitness Plans & Nutritions</h4>
+        </div>
+        <div class="plan-section">
+            <div class="box-plan">
+                <img src="https://banner2.cleanpng.com/20180509/ice/kisspng-weight-loss-physical-fitness-computer-icons-dietar-lose-weight-5af2b77cefa4b4.9839733215258561249816.jpg"
+                    alt="">
+                <h4>Weight Loss</h4>
+            </div>
+            <div class="box-plan">
+                <img src="https://p1.hiclipart.com/preview/624/895/783/yoga-lotus-position-wall-decal-sticker-logo-meditation-interior-design-services-sitting-png-clipart-thumbnail.jpg"
+                    alt="">
+                <h4>Classic Yoga</h4>
+            </div>
+            <div class="box-plan">
+                <img src="https://banner2.cleanpng.com/20180424/qfe/kisspng-computer-icons-cycling-sport-jslink-cyclist-logo-5adfcd53c3ac38.2835426815246165318015.jpg"
+                    alt="">
+                <h4>Cycling</h4>
+            </div>
+            <div class="box-plan">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8yxJmsQ-J0cLaI9bbnkisNq2iJ0j-FygYtg&usqp=CAU"
+                    alt="">
+                <h4>Body Building</h4>
+            </div>
+            <div class="box-plan">
+                <img src="https://st3.depositphotos.com/4799321/19465/v/450/depositphotos_194650464-stock-illustration-dumbbell-fitness-gym-in-flat.jpg"
+                    alt="">
+                <h4>Hypertropy</h4>
+            </div>
+            <div class="box-plan">
+                <img src="https://icon2.cleanpng.com/20180402/ftq/kisspng-summer-olympic-games-track-field-athlete-sport-pictogram-5ac284f859a987.0541179215226974643673.jpg"
+                    alt="">
+                <h4>Running</h4>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------------------->
+    <div class="zero-container">
+        <div class="fist-image">
+            <img src="./figimg/Rectangle 19.png">
+            <div class="fist-container">
+                <h1>Subscription Plans</h1>
+
+                <div class="price__grid">
+                    <div class="price__card">
+                        <div class="price_card_content">
+                            <h4>Basic</h4>
+                            <p>For 12 Months</p>
+                            <h3>800/Month</h3>
+                            <p>For Streaming</p>
+                        </div>
+                        <div class="button">
+                            <a class="bt">Select Plan</a>
+                        </div>
+                    </div>
+                    <div class="price__card">
+                        <div class="price_card_content">
+                            <h4>Intermediate</h4>
+                            <p>For 12 Months</p>
+                            <h3>1000/Month</h3>
+                            <p>For Streaming</p>
+                        </div>
+                        <div class="button">
+                            <a class="bt">Select Plan</a>
+                        </div>
+
+                    </div>
+                    <div class="price__card">
+                        <div class="price_card_content">
+                            <h4>Advanced</h4>
+                            <p>for 12 Months</p>
+                            <h3>1500/Month</h3>
+                            <p>For Streaming</p>
+                        </div>
+                        <div class="button">
+                            <a class="bt">Select Plan</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------------- -->
+    <div class="zero1-container">
+        <div class="fist1-image">
+            <img src="./figimg/Rectangle 30.png">
+            <div class="fist1-container">
+                <h1>Success Stories</h1>
+                <div class="price__grid1">
+                    <div class="price__card1">
+                        <div class="price_card_content1">
+                            <img src="./figimg/Rectangle 31.png">
+
+                            <p>Working out regularly I lose
+                                some of my extra pounds which
+                                helped in my modelling career.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="price__card1">
+                        <div class="price_card_content1">
+                            <img src="./figimg/Rectangle 32.png">
+
+                            <p>Yoga and Pilates helped
+                                me get back in shape
+                                and raised my confidence.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="price__card1">
+                        <div class="price_card_content1">
+                            <img src="./figimg/Rectangle 33.png">
+
+                            <p>Personal Trainer diet plan
+                                helpedin increasing
+                                strength and endurance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------footer----------------------------------- -->
+    <!-- FOOTER -->
+    <footer class="section__container footer__container">
+        <div class="address">
+            <h3>Locations</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d476002.68271770055!2d81.10737327343749!3d21.240929200000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28dd36c9094f8d%3A0x9b52fe998fc169b4!2sMagneto%20The%20Mall!5e0!3m2!1sen!2sin!4v1701877336375!5m2!1sen!2sin"
+                width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="footer__col">
+            <h4>Company</h4>
+            <a href="#">Business</a>
+            <a href="#">Franchise</a>
+            <a href="#">Partnership</a>
+            <a href="#">Network</a>
+        </div>
+        <div class="footer__col">
+            <h4>More</h4>
+            <a href="#">Blogs</a>
+            <a href="#">Security</a>
+            <a href="#">Careers</a>
+        </div>
+        <div class="footer__col">
+            <h4>Contact</h4>
+            <a href="#">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">BMI Calculator</a>
+        </div>
+        <div class="footer__col">
+            <h4>Popular Tags</h4>
+            <button><a href="#">Workout</a></button>
+            <button><a href="#">Nutrition</a></button>
+            <button><a href="#">Trainers</a></button>
+            <button><a href="#">Facilities</a></button>
+            <button><a href="#">Running</a></button>
+            <button><a href="#">Strength</a></button>
+        </div>
+    </footer>
+    <div class="footer__bar">
+        Copyright © 2023 Fitness Star Gym. All rights reserved.
+    </div>
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------ -->
+    <script>
+        // -----NAV MENU-----
+        let x = document.getElementById('menu')
+        let menuBtn = document.querySelector('.menuBtn')
+        let closeBtn = document.querySelector('.closeBtn')
+
+        function openMenu() {
+            x.style.display = 'block';
+            menuBtn.style.display = 'none';
+            closeBtn.style.display = 'block';
+
+        }
+        function closeMenu() {
+            x.style.display = 'none';
+            menuBtn.style.display = 'block';
+            closeBtn.style.display = 'none';
+        }
+
+
+        // -----FORM BUTTON-----
+        function openform() {
+            document.getElementById('form1').style.display = 'block';
+        }
+        function closeform() {
+            document.getElementById('form1').style.display = 'none';
+        }
+        document.getElementById('openformBtn').addEventListener('click', openform);
+    </script>
+
+
+</body>
+
+</html>
