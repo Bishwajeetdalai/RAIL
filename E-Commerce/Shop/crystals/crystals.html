@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewellery Website</title>
+    <link rel="stylesheet" href="crystals.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <ul class="nav">
+                <li><a href="/Home/home.html">Home</a></li>
+                <li><a href="/Shop/crystals/crystals.html">Shop</a></li>
+                <li><a href="/Help&Info/Blog/blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <img class="logo" src="./image/Logo.png" alt="logo">
+        <div class="nav">
+            <a href="/Profile/Profile_Wishlist/wishlist.html"><i class="fa-solid fa-heart"></i></a>
+            <a href="/Product_Component/page12.5/page12.5.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <!-- <a href="#"><i class="fa-solid fa-user-plus"></i></a> -->
+            <button id="openformBtn" onclick="openform()"><i class="fa-solid fa-user-plus"></i></button>
+
+        </div>
+    </header>
+
+    <!--------------------------------------- REGISTRATION FORM ---------------------------------------------------->
+
+    <div class=" registration_form" id="form1">
+
+        <div class="hero">
+            <div class="container">
+                <div class="first1">
+                    <img src="../crystals/image/login.jpg">
+                </div>
+                <div class="form-box">
+                    <div class="button-box">
+                        <div id="btn"></div>
+                        <button type="button" class="toggle-btn" onclick="login()">LogIn</button>
+                        <button type="button" class="toggle-btn" onclick="SignUp()">SignUp</button>
+                    </div>
+                    <div class="close">
+                        <button class="closeformBtn" onclick="closeform()" type="button"><i
+                                class="fa-sharp fa-solid fa-xmark" style="color: #fafafa;"></i></button>
+                    </div>
+
+                    <!-- ------------------------------------Login Form------------------------------------------------------------------- -->
+                    <form id="login" class="input-group">
+                        <input type="text" class="input-field" placeholder="Phone Number / Email-Id" required>
+                        <input type="text" class="input-field" placeholder="Enter Your Password" required>
+                        <div class="btn3">
+                            <button type="submit" class="submit-btn">Log In</button>
+                        </div>
+                        <div class="forgot">
+                            <a href="#">Forgot Password ?</a>
+                        </div>
+                        <div class="btn3">
+                            <button type="submit" class="submit-btn2"><i class="fa-brands fa-google"></i>
+                                Log in with
+                                Google</button>
+                        </div>
+                    </form>
+                    <!-- ------------------------------------Signup Form------------------------------------------------------------------- -->
+                    <form id="SignUp" class="input-group">
+                        <input type="text" class="input-field" placeholder="Enter Your Name" required>
+                        <input type="text" class="input-field" placeholder="Enter Email-ID" required>
+                        <input type="text" class="input-field" placeholder="Type Your Phone Number" required>
+                        <input type="text" class="input-field" placeholder="Enter Your Password" required>
+                        <input type="text" class="input-field" placeholder="Re-Enter Your Password" required>
+                        <input type="checkbox" class="check-box" required>
+                        <span> I agree to the Terms of use and Privacy Statement</span>
+                        <div class="sign"><button type="submit" class="submit-btn">Sign Up</button></div>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- -------------------------------------------------------------------------------------------------------- -->
+    <div class="photo">
+        <img src="./image/2X 1.png" alt="">
+    </div>
+    <div class="heading">CRYSTALS</div>
+    <!-- ------------------------------------------------------------------------------------------------------ -->
+    <div class="secondary-section">
+
+        <div class="first">
+            <div class="square1">
+                <div class="side-navbar">
+                    <h1>Categories</h1>
+                    <ul>
+                        <li class="side-nav-heading"><a href="/Shop/crystals/crystals.html">Crystals</a></li>
+                        <li><a href="/Shop/crystals/crystals.html">GemStones</a></li>
+                        <li><a href="/Shop/crystals/crystals.html">Diamond</a></li>
+                    </ul>
+                    <ul>
+                        <li class="side-nav-heading"><a href="/Shop/carat/carat.html">Carats</a></li>
+                        <li><a href="/Shop/carat/carat.html">Gold</a></li>
+                        <li><a href="/Shop/carat/carat.html">Platinum</a></li>
+                    </ul>
+                    <ul>
+                        <li class="side-nav-heading"><a href="../Products/Product1/page4.html">Products</a></li>
+                        <li><a href="/Shop/Collection/Coin/page4.html">Coin</a></li>
+                        <li><a href="/Shop/Collection/Biscuit/page4.html">Biscuit</a></li>
+                        <li><a href="/Shop/Collection/Necklace/page4.html">Neclace</a></li>
+                        <li><a href="/Shop/Collection/Bracelets/page4.html">Bracelet</a></li>
+                        <li><a href="/Shop/Collection/Bangles/page4.html">Bangles</a></li>
+                        <li><a href="/Shop/Collection/Earing/page4.html">Earrings</a></li>
+                        <li><a href="/Shop/Collection/Pendant/page4.html">Pendant</a></li>
+                        <li><a href="/Shop/Collection/Rings/page4.html">Rings</a></li>
+                        <li><a href="/Shop/Collection/MangalSutra/page4.html">Mangalsutra</a></li>
+                        <li><a href="/Shop/Collection/Nosepins/page4.html">Nosepin</a></li>
+                    </ul>
+                    <ul>
+                        <li class="side-nav-heading"><a href="/Shop/Bridal_Special/Bridal1/page8.html">Bridal
+                                Special</a></li>
+                        <li><a href="/Shop/Bridal_Special/Bridal2/page9.html">Enhancing</a></li>
+                        <li><a href="/Shop/Bridal_Special/Bridal2/page9.html">Trendsetter</a></li>
+                        <li><a href="/Shop/Bridal_Special/Bridal2/page9.html">Dazzling</a></li>
+                    </ul>
+                    <ul>
+                        <li class="side-nav-heading"><a href="#">Occasional</a></li>
+                        <li><a href="/Shop/carat/carat.html">Birthday</a></li>
+                        <li><a href="/Shop/carat/carat.html">Aniversary</a></li>
+                        <li><a href="/Shop/carat/carat.html">Baby Shower</a></li>
+                        <li><a href="/Shop/carat/carat.html">Festive Gifts</a></li>
+                    </ul>
+                    <ul>
+                        <li class="side-nav-heading"><a href="/Shop/Occasional/page10.html">Personalised</a></li>
+                        <li><a href="/Shop/Occasional/page10.html">Jewellery Box</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- ----------------------------------------------------------------------------------- -->
+            <div class="square">
+                <aside class="products">
+                    <p class="products-heading-1">Shop</p>
+
+                    <div class="best-sellers-container">
+
+                        <div class="best-sellers-slider">
+                            <figure>
+                                <img src="./image/Rectangle 40.png" alt="coin">
+                                <a href="../Collection/Rings/page4.html"><label>Rings</label></a>
+                                <button>
+                                    <p>Rs 7500</p>
+                                    <p>30% off</p>
+                                </button>
+                            </figure>
+                            <figure>
+                                <img src="./image/Rectangle 41.png" alt="coin">
+                                <a href="../Collection/Rings/page4.html"><label>Earings</label></a>
+                                <button>
+                                    <p>Rs 5467</p>
+                                    <p>25% off</p>
+                                </button>
+                            </figure>
+                            <figure>
+                                <img src="./image/Rectangle 42.png" alt="coin">
+                                <a href="../Collection/Rings/page4.html"><label>Bracelet</label></a>
+                                <button>
+                                    <p>Rs 8700</p>
+                                    <p>45% off</p>
+                                </button>
+                            </figure>
+                        </div>
+                    </div>
+                </aside>
+                <!-- ---------------------------------------------------------------------------------------------------------- -->
+                <aside class="products">
+
+                    <div class="best-sellers-container">
+
+                        <div class="best-sellers-slider">
+                            <figure>
+                                <img src="./image/Rectangle 47.png" alt="gold-biscuit">
+                                <a href="../Collection/Rings/page4.html"><label>Pendants</label></a>
+                                <button>
+                                    <p>Rs 7500</p>
+                                    <p>30% off</p>
+                                </button>
+                            </figure>
+                            <figure>
+                                <img src="./image/Rectangle 49.png" alt="gold-biscuit">
+                                <a href="../Collection/Rings/page4.html"><label>Bangles</label></a>
+                                <button>
+                                    <p>Rs 7500</p>
+                                    <p>30% off</p>
+                                </button>
+                            </figure>
+                            <figure>
+                                <img src="./image/Rectangle 51.png" alt="gold-biscuit">
+                                <a href="../Collection/Rings/page4.html"><label>Necklace</label></a>
+                                <button>
+                                    <p>Rs 7500</p>
+                                    <p>30% off</p>
+                                </button>
+                            </figure>
+                        </div>
+                    </div>
+                </aside>
+                <!-- ---------------------------------------------------------------------------------------------------------- -->
+
+                <aside class="products">
+                    <div class="best-sellers-container">
+
+                        <div class="best-sellers-slider">
+                            <figure>
+                                <img src="./image/Rectangle 52.png" alt="coin">
+                                <a href="../Collection/Rings/page4.html"><label>Rings</label></a>
+                                <button>
+                                    <p>Rs 7500</p>
+                                    <p>30% off</p>
+                                </button>
+                            </figure>
+                            <figure>
+                                <img src="./image/Rectangle 54.png" alt="coin">
+                                <a href="../Collection/Rings/page4.html"><label>Earings</label></a>
+                                <button>
+                                    <p>Rs 5467</p>
+                                    <p>25% off</p>
+                                </button>
+                            </figure>
+                            <figure>
+                                <img src="./image/Rectangle 53 (1).png" alt="coin">
+                                <a href="../Collection/Rings/page4.html"><label>Bracelet</label></a>
+                                <button>
+                                    <p>Rs 8700</p>
+                                    <p>45% off</p>
+                                </button>
+                            </figure>
+                        </div>
+
+                    </div>
+                </aside>
+                <!-- ---------------------------------------------------------------------------------------------------------- -->
+
+                <aside class="products">
+
+                    <div class="best-sellers-container">
+
+                        <div class="best-sellers-slider">
+                            <figure>
+                                <img src="./image/Rectangle 55 (1).png" alt="gold-biscuit">
+                                <a href="../Collection/Rings/page4.html"><label>Pendant</label></a>
+                                <button>
+                                    <p>Rs 7500</p>
+                                    <p>30% off</p>
+                                </button>
+                            </figure>
+                            <figure>
+                                <img src="./image/Rectangle 56.png" alt="gold-biscuit">
+                                <a href="../Collection/Rings/page4.html"><label>Bangles</label></a>
+                                <button>
+                                    <p>Rs 7500</p>
+                                    <p>30% off</p>
+                                </button>
+                            </figure>
+                            <figure>
+                                <img src="./image/Rectangle 57.png" alt="gold-biscuit">
+                                <a href="../Collection/Rings/page4.html"><label>Necklace</label></a>
+                                <button>
+                                    <p>Rs 7500</p>
+                                    <p>30% off</p>
+                                </button>
+                            </figure>
+                        </div>
+
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <footer>
+        <div class="main-footer">
+            <ul>
+                <li class="list-heading">Address</li>
+                <li>
+                    Crystals & Carats
+                    Plot No 44, 45, Street Number 14,
+                    Marol MIDC Industry Estate,
+                    Andheri East,Mumbai -400093
+                </li>
+            </ul>
+            <ul>
+                <li class="list-heading">Help & Info</li>
+                <li><a href="/Help&Info/AboutUs/about.html"> About Crystals & Carats</a></li>
+                <li><a href="/Help&Info/career/career.html"> Careers</a></li>
+                <li><a href="/Help&Info/Blog/blog.html"> Blogs</a></li>
+                <li><a href="/Help&Info/FAQ/FAQ1/faq1.html"> FAQs</a></li>
+            </ul>
+            <ul>
+                <li class="list-heading">Contact Us</li>
+                <li><i class="fa-solid fa-phone"></i> 1809-908-5647</li>
+                <li><i class="fa-regular fa-envelope"></i> Get in touch</li>
+                <li><i class="fa-brands fa-rocketchat"></i> Chat With Us</li>
+            </ul>
+            <ul>
+                <li class="list-heading">Useful Links</li>
+                <li>Privacy Policy</li>
+                <li>Terms of Service</li>
+                <li>Payment Issues</li>
+                <li>Net Banking</li>
+                <li>Custom Jewellery</li>
+            </ul>
+            <div>
+                <p class="list-heading">Location</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15079.452048964033!2d72.85943414711282!3d19.113664638443268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c83c05b7fc89%3A0xbe87eb057f3aafda!2sAndheri%2C%20Maharashtra%20400053!5e0!3m2!1sen!2sin!4v1702278195879!5m2!1sen!2sin"
+                    width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="socials">
+                <p>Follow Us on: </p>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+        <p class="copyright">@2023 Crystals & Carats. All Rights Reserved.</p>
+    </footer>
+
+    <!-- ---------------------------------Script--------------------------------------------------------------------- -->
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("SignUp");
+        var z = document.getElementById("btn");
+
+        function SignUp() {
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+
+        }
+        function login() {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px";
+
+        }
+        // -----FORM BUTTON-----
+        function openform() {
+            document.getElementById('form1').style.display = 'block';
+        }
+        function closeform() {
+            document.getElementById('form1').style.display = 'none';
+        }
+        document.getElementById('openformBtn').addEventListener('click', openform);
+
+
+    </script>
+
+
+</body>
+
+</html>

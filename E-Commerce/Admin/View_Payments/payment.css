@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FED7BA;
+}
+
+.header {
+    border-color: #84292B;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 1rem; */
+    font-family: "Poppins";
+    align-items: center;
+    padding-bottom: 10px;
+
+}
+
+.logo {
+    width: 200px;
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 10px;
+
+}
+
+.nav a:hover {
+    color: #8B0000;
+    ;
+}
+
+
+ul {
+    padding-top: 10px;
+}
+
+.side-navbar {
+    width: 250px;
+    height: 800px;
+    background-color: white;
+    padding: 0px 20px;
+    padding-left: 50px;
+
+}
+
+.side-nav-heading a {
+    color: black;
+    text-decoration: none;
+    font-weight: 520;
+    font-size: 20px;
+
+
+}
+
+.side-nav-heading a:hover {
+    color: #8B0000;
+    transform: scaleX(1.1);
+    font-weight: 600;
+}
+
+.side-navbar h1,
+.side-navbar li,
+.side-navbar a,
+.side-navbar ul,
+.side-nav-heading li {
+    background-color: white;
+    list-style: none;
+    padding-top: 30px;
+
+}
+
+.secondary-section {
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.heading {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 5px;
+    width: 100%;
+
+}
+
+.heading h1 {
+    margin-left: -16%;
+    width: 184%;
+    background-color: #e072ae;
+
+}
+
+.square1 {
+    width: 200px;
+    height: 100px;
+}
+
+.first {
+    width: 80%;
+    height: 800px;
+
+}
+
+.second {
+    width: 90%;
+    margin-left: -50%;
+
+}
+/* ---------------------------- */
+.box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.col{
+    display: flex;
+    padding-top: 30px;
+}
+#active button{
+    background-color: blue;
+    color: white;
+}
+#active button:hover{
+    background-color: black;
+    color: white;
+}
+#inactive button{
+    background-color: rgb(147, 147, 226);
+    color: black;
+}
+#inactive button:hover{
+    background-color: black;
+    color: white;
+}
+.check{
+    font-weight: 600;
+    padding-top: 30px;
+}
+.btn{
+
+    background: none;
+}
+/* ----------------------------------------------------------------- */
+.table-box {
+    margin: 50px auto;
+    padding-top: 30px;
+    width: 150%;
+}
+
+.table-row {
+    margin: 10px auto;
+    display: table;
+    width: 80%;
+    background: transparent;
+    color: black;
+    font-size: 20px;
+    box-shadow: 0 1px 4px 0 rgba(red, green, blue, alpha);
+}
+
+.table-cell {
+    display: table-cell;
+    text-align: center;
+    padding: 4px 0px;
+    /* border-bottom: 1px solid black; */
+    vertical-align: middle;
+    background: rgb(153, 153, 238);
+
+    
+}
+
+p {
+    width: 100px;
+    /* padding-left: 35px; */
+}
+
+.btn {
+    padding-left: 0px;
+    width: 75px;
+    margin-left: 0%;
+    background: none;
+
+
+}
+
+.btn button {
+    color: black;
+    font-weight: 500;
+    padding: 2px;
+    cursor: pointer;
+    background: rgb(153, 153, 238);
+    width: 65px;
+    border-color: #f04343;
+}
+
+.btn button:hover {
+    color: black;
+}
+
+.nav button {
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    background-color: darkred;
+    cursor: pointer;
+}
+
+.nav {
+    padding-top: 10px;
+}
+
+.nav i {
+    background-color: darkred;
+    color: black;
+    width: 30px;
+}
+
+.nav button:hover {
+    color: black;
+}
+#table-head{
+    width: 100%;
+    margin-left: 0%;
+   
+}
+#table-head p {
+    font-size: 18px;
+    width: 110px;
+    padding-left: 0px;
+    box-shadow: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    background: rgb(153, 153, 238);
+
+}
+#content{
+    width: 100%;
+    margin-left: 0%;
+
+}
+#content .table-cell,
+#content .table-cell p {
+    font-size: 15px;
+    background: rgb(153, 153, 238);
+}
+
+
+#serial p{
+    width: 60px;
+}
+#number{
+    padding-left: 30px;
+}
+#paid p{
+    margin-left: -15%;
+}
+#paid1 p{
+    margin-left: -25%;
+}
+#mode p{
+    margin-left: -20%;
+}
+#mode1 p{
+    margin-left: -20%;
+}
+#tax p{
+    width: 50px;
+    margin-left: -20%;
+    
+}
+#invoice p{
+    font-size: 15px;
+    width: 160px;
+    margin-left: 5%;
+}
+
+
+#status p{  
+    margin-left: 20%;
+    
+}
+#green{
+    width: 130px;
+}
+#red{
+    width: 130px;
+}
+/* ------------------------------------------ */
+#green button{
+    background-color: green;
+    color: white;
+    width: 100px;
+}
+#green button:hover{
+    background-color: black;
+    color: white;
+}
+#red button{
+    background-color: rgb(243, 57, 36);
+    color: black;
+    width: 100px;
+}
+#red button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* -----REGISTRATION FORM----- */
+.hero {
+    height: auto;
+    width: auto;
+    background-image: linear-gradient();
+    background-color: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    margin-top: 0%;
+    margin-left: -10%;
+
+}
+
+
+.registration_form {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: auto;
+    width: 500px;
+    
+}
+
+.container {
+    box-sizing: border-box;
+    border-color: black;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+    height: 80%;
+    margin: 10px 10px;
+
+}
+
+
+.container .first1 img {
+   width: 450px;
+    height: 600px;
+    justify-content: center;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+.form-box {
+    width: 450px;
+    height: 600px;
+    position: relative;
+    margin: 0% auto;
+    background: white;
+    padding: 0px;
+    overflow: hidden;
+    margin-left: 0%;
+
+}
+
+
+.button-box {
+    width: 230px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px black;
+    border-radius: 30px;
+}
+
+.toggle-btn {
+    padding: 10px 35px;
+    color: black;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, rgb(47, 166, 55), yellow);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.input-group {
+    top: 140px;
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    transition: 0.5s;
+    background-color: white;
+}
+
+.forgot {
+    background-color: white;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.forgot a {
+    background-color: white;
+}
+
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #7b0b71;
+    outline: none;
+    background: transparent;
+}
+
+.sign {
+    padding-top: 20px;
+    background-color: white;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    background: rgb(245, 77, 105);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+
+}
+
+.btn3 {
+    padding-top: 30px;
+    background-color: white;
+}
+
+.submit-btn2 i {
+    background-color: rgb(200, 33, 33);
+}
+
+.submit-btn2 {
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    background-color: rgb(200, 33, 33);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    padding-top: 10px;
+}
+
+.submit-btn2:hover {
+    color: rgb(157, 187, 9);
+}
+
+button {
+    color: white;
+
+}
+
+.close {
+    width: 30px;
+    margin-left: 90%;
+    margin-top: -22%;
+}
+
+.close button {
+    background-color: black;
+    padding: 5px;
+}
+
+i {
+    width: 20px;
+    height: 15px;
+    background-color: black;
+}
+
+.check-box {
+    height: 15px;
+    margin-left: 2%;
+    margin-top: 10px;
+}
+
+span {
+    color: #777777;
+    font-size: 12px;
+    margin-left: 2%;
+    background-color: white;
+    margin-top: 5px;
+}
+
+#login {
+    left: 50px;
+}
+
+#SignUp {
+    left: 450px;
+    margin-left: 50px;
+}
+
+#login a {
+    cursor: pointer;
+    padding: 30px 30px;
+    color: rgb(201, 13, 6);
+}
+
+#login a:hover {
+    cursor: pointer;
+    padding: 30px 30px;
+    color: rgb(38, 5, 103);
+}

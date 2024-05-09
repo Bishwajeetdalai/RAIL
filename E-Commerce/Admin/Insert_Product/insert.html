@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewellery Website</title>
+    <link rel="stylesheet" href="insert.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <h1>Dashboard</h1>
+        </nav>
+        <img class="logo" src="/Admin/image/Logo.png" alt="logo">
+        <div class="nav">
+            <button id="openformBtn" onclick="openform()"><i class="fa-solid fa-user"
+                style="color: #fafafa;"></i>Admin</button>
+        </div>
+    </header>
+    <!-- REGISTRATION FORM -->
+
+    <div class="registration_form" id="form1">
+
+        <div class="hero">
+            <div class="container">
+                <div class="first1">
+                    <img src="/Profile/Profile_Section/image/Rectangle 160.png">
+                </div>
+                <div class="form-box">
+                    <div class="button-box">
+                        <div id="btn"></div>
+                        <button type="button" class="toggle-btn" onclick="login()">LogIn</button>
+                        <button type="button" class="toggle-btn" onclick="SignUp()">SignUp</button>
+                    </div>
+                    <div class="close">
+                        <button class="closeformBtn" onclick="closeform()" type="button"><i
+                                class="fa-sharp fa-solid fa-xmark" style="color: #fafafa;"></i></button>
+                    </div>
+
+                    <!-- ------------------------------------Login Form------------------------------------------------------------------- -->
+                    <form id="login" class="input-group">
+                        <input type="text" class="input-field" placeholder="Phone Number / Email-Id" required>
+                        <input type="text" class="input-field" placeholder="Enter Your Password" required>
+                        <div class="btn3">
+                        <button type="submit" class="submit-btn">Log In</button>
+                        </div>
+                        <div class="forgot">
+                            <a href="#">Forgot Password ?</a>
+                        </div>
+                        <div class="btn3">
+                            <button type="submit" class="submit-btn2"><i class="fa-brands fa-google"></i> Log in with Google</button>
+                        </div>
+                    </form>
+                    <!-- ------------------------------------Signup Form------------------------------------------------------------------- -->
+                    <form id="SignUp" class="input-group">
+                        <input type="text" class="input-field" placeholder="Enter Your Name" required>
+                        <input type="text" class="input-field" placeholder="Enter Email-ID" required>
+                        <input type="text" class="input-field" placeholder="Type Your Phone Number" required>
+                        <input type="text" class="input-field" placeholder="Enter Your Password" required>
+                        <input type="text" class="input-field" placeholder="Re-Enter Your Password" required>
+                        <input type="checkbox" class="check-box" required>
+                        <span> I agree to the Terms of use and Privacy Statement</span>
+                        <div class="sign"><button type="submit" class="submit-btn">Sign Up</button></div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------------------ -->
+    <div class="secondary-section">
+
+        <div class="first">
+            <div class="square1">
+                <div class="side-navbar">
+
+                    <ul>
+                        <li class="side-nav-heading"><a href="insert.html">Products</a></li>
+                        <li class="side-nav-heading"><a href="../Insert_Category/category.html">Categories</a></li>
+                        <li class="side-nav-heading"><a href="../slider_images/slider.html">Slider Images</a></li>
+                        <li class="side-nav-heading"><a href="../View_Customer/Customer.html">View Customer</a></li>
+                        <li class="side-nav-heading"><a href="../View_Order/order.html">View Orders</a></li>
+                        <li class="side-nav-heading"><a href="../View_Payments/payment.html">View Payments</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="second">
+            <div class="heading">
+                <h1>Insert Product</h1>
+            </div>
+            <div class="content1">
+                <label for="product">Product Title</label>
+                <input type="text" class="box" placeholder="Gold Necklace 20 carat">
+            </div>
+            <div class="content1">
+                <label for="product">Product Keyword</label>
+                <select name="gold" id="">
+                    <option value="gold" selected disabled>Select Gold</option>
+                    <option value="gold1">gold1</option>
+                    <option value="gold2">gold2</option>
+                    <option value="gold3">gold3</option>
+                </select>
+            </div>
+            <div class="content1">
+                <label for="product">Product Category</label>
+                <select name="carat" id="">
+                    <option value="carat" selected disabled>Select Carat</option>
+                    <option value="carat1">carat1</option>
+                    <option value="carat2">carat2</option>
+                    <option value="carat3">carat3</option>
+                </select>
+            </div>
+            <div class="content1">
+                <label for="product">Product Image</label>
+                <input type="text" placeholder="">
+                <div class="btn">
+                    <button>Choose File</button>
+                </div>
+            </div>
+            <div class="content1">
+                <label for="product">Product Description</label>
+                <input type="text" id="desc" placeholder="">
+            </div>
+            <div class="buttons">
+                <div class="btn1">
+                    <button>Insert Products</button1>
+                </div>
+                <div class="btn2">
+                    <button>View Products</button1>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+
+        var x = document.getElementById("login");
+        var y = document.getElementById("SignUp");
+        var z = document.getElementById("btn");
+
+        function SignUp() {
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+
+        }
+        function login() {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px";
+
+        }
+        // -----FORM BUTTON-----
+        function openform() {
+            document.getElementById('form1').style.display = 'block';
+        }
+        function closeform() {
+            document.getElementById('form1').style.display = 'none';
+        }
+        document.getElementById('openformBtn').addEventListener('click', openform);
+
+    </script>
+
+</body>
+
+</html>
+<!-- ----------------------------------------------------------------------------------- -->

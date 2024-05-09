@@ -1,0 +1,512 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FED7BA;
+}
+
+.header {
+    border-color: #84292B;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 1rem; */
+    font-family: "Poppins";
+    align-items: center;
+    padding-bottom: 10px;
+
+}
+
+.logo {
+    width: 200px;
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.nav a:hover {
+    color: #8B0000;
+    ;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.nav button{
+
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 5px 10px;
+    color: white;
+    background-color: darkred;
+    cursor: pointer;
+    
+}
+.nav button:hover{
+    color: black;
+    background-color: rgb(225, 243, 59);
+}
+ul {
+    padding-top: 10px;
+}
+
+#option {
+    background-color: white;
+    border-color: transparent;
+
+}
+
+#option:hover {
+    padding-top: 5px;
+}
+
+.side-navbar ul li,
+h1 {
+    list-style: none;
+    background-color: white;
+}
+.side-heading{
+    padding-top: 10px;
+    background-color: white;
+}
+.side-heading h1 {
+    padding-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 520;
+    font-size: 20px;
+   
+}
+.side-nav-heading a {
+    color: black;
+    text-decoration: none;
+    font-weight: 520;
+    font-size: 20px;
+   
+}
+.profile {
+    background-color: white;
+    font-size: 20px;
+
+}
+
+.profile button {
+    background-color: #FED7BA;
+    width: 210px;
+    font-size: 20px;
+    font-weight: 700;
+    height: 46px;
+}
+
+.profile i {
+    background-color: #FED7BA;
+    padding-right: 5px;
+}
+i{
+    background: transparent;
+}
+.profile button:hover {
+    background-color: #FED7BA;
+    color: red;
+}
+
+.side-nav-heading a:hover {
+    color: #8B0000;
+    font-weight: 600;
+}
+li{
+    font-size: 12px;
+    padding-left: 10px;
+    cursor: pointer;
+    
+    
+}
+li:hover{
+    color: #8B0000;
+    font-weight: 600;
+    
+}
+
+.secondary-section {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.side-navbar {
+    width: 250px;
+    height: 939px;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.side-nav-heading a {
+    color: black;
+
+}
+
+.side-navbar .tag {
+    height: auto;
+    background-color: #b5c10c;
+    box-sizing: border-box;
+    border-color: #b5c10c;
+}
+
+.tag h1 {
+    color: rgb(202, 35, 35);
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: -10px;
+}
+
+.tag p {
+    color: black;
+    background-color: white;
+    font-size: 15px;
+}
+
+.side-nav-heading a:hover {
+    color: #8B0000;
+    transform: scaleX(1.1);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+.side-navbar h1,
+.side-navbar li,
+.side-navbar a,
+.side-navbar ul,
+.side-nav-heading li {
+    background-color: white;
+    list-style: none;
+    padding-top: 10px;
+
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+.first {
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* padding-top: 50%; */
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+/* --------------------------- */
+.square1 {
+    width: 100%;
+}
+
+.heading-container {
+    width: 117%;
+    height: auto;
+    margin-left: -20%;
+    background-color: white;
+}
+
+.heading {
+    width: 100%;
+    height: auto;
+}
+.image1{
+    width: 30%;
+}
+.head0 {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.section1 {
+    text-align: left;
+    padding: 20px 20px;
+    background-color: white;
+    width: 50%;
+}
+
+.section1 h1 {
+    padding: 10px 20px;
+    background-color: white;
+   
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+}
+.first-container{
+    width: 100%;
+    padding-left: 50px;
+    justify-content: center;
+    background-color: white;
+    
+
+}
+
+.image1 img{
+    width: 300px;
+    
+}
+.second-container{
+width: 120%;
+background-color: white;
+padding-bottom: 50px;
+margin-left: -20%;
+
+
+}
+
+.head1 {
+
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    padding-top: 10px;
+}
+.name {
+    font-size: 10px;
+    padding: 10px 10px;
+    color: rgb(91, 89, 89);
+    background-color: white;
+    width: 200px;
+
+}
+
+.first1 {
+    width: 110px;
+    margin-left: 50%;
+    background-color: white;
+    color: red;
+
+}
+
+.first2 {
+    background-color: white;
+    padding-left: 0px;
+    width: 150px;
+}
+
+.first3 {
+    background-color: white;
+    padding-left: 5px;
+    width: 150px;
+    margin-left: -90%;
+    color: red;
+
+}
+.first1 a,
+.first3 a{
+    color: red;
+    font-weight: 600;
+}
+.first1 a:hover,
+
+.first3 a:hover{
+    color: rgb(57, 19, 213);
+    font-weight: 800;
+}
+
+.btn1 {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    width: 150px;
+    
+}
+
+.btn1 button {
+    padding: 10px 0px;
+    background-color: green;
+    border-radius: 20px;
+    border-style: solid;
+    cursor: pointer;
+    width: 70px;
+}
+.btn1 i{
+    background-color: green;
+    }
+
+
+.col{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: white;
+    width: 400px;
+    column-gap: 0px;
+
+}
+.para1{
+    font-weight: 700;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-left: -40%;
+
+}
+.para p,
+.para1 p{
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+.Category p{
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: 700;
+
+}
+.col1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 610px;
+    padding-top: 20px;
+    background-color: white;
+}
+.col1 .para p{
+    color: green;
+    
+}
+.col1 .para2 p{
+    padding-top: 5px;
+    color: purple;
+}
+.rs p{
+    padding-left: 10px;
+    padding-top: 20px;
+    background: white;
+    color: orangered;
+}
+.icon{
+    padding-top: 5px;
+    width: 30px;
+    background-color: white;
+    margin-left: 60px;
+    color: purple;
+}
+.para2{
+    background: white;
+    margin-left: -100px;
+}
+.para2 p{
+    background-color: white;
+}
+.icon p,.icon i{
+    background-color: white;
+}
+
+/* ------------------------------------------------------------------------- */
+footer {
+
+    margin-top: 9%;
+}
+
+.main-footer {
+    background-color: #D9D9D9;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem 2rem;
+    font-family: "Nunito Sans";
+    margin-top: 2rem;
+}
+
+.main-footer li {
+    list-style: none;
+    font-size: 15px;
+}
+
+.main-footer ul {
+    display: block;
+    margin-inline: auto;
+    cursor: pointer;
+
+}
+
+.list-heading {
+    color: #8B0000;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.main-footer div,
+.main-footer ul,
+.main-footer li,
+.main-footer i,
+.main-footer p {
+    background-color: transparent;
+}
+
+.socials {
+    grid-row: 3/4;
+    grid-column: 2/4;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.socials p {
+    color: #8B0000;
+    font-weight: bold;
+}
+
+.copyright {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Nunito Sans";
+    color: #8B0000;
+    font-weight: 600;
+}
+
+
+/* --------------------------------------- */
+.search-container {
+    float: center;
+    padding-bottom: 10px;
+    width: 1006px;
+    background-color: white;
+    margin-left: 5%;
+  }
+  
+ input[type=text] {
+    padding: 6px;
+    margin-top: 0px;
+    font-size: 17px;
+    border: none;
+    width: 952px;
+    height: 50px;
+  }
+  
+form button{
+    width: 50px;
+    height: 52px;
+    margin-left: 0%;
+    border-radius: 0px;
+    border-width: 3px;
+    background-color: white;
+}
